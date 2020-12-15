@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-15T08:56:10 EET" name="Surefire suite" finished-at="2020-12-15T08:56:12 EET" duration-ms="2164">
+    <groups>
+    </groups>
+    <test started-at="2020-12-15T08:56:10 EET" name="Surefire test" finished-at="2020-12-15T08:56:12 EET" duration-ms="2164">
+      <class name="com.example.restservice.CopterControllerTests">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:10 EET" name="springTestContextBeforeTestClass" finished-at="2020-12-15T08:56:10 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:10 EET" name="springTestContextPrepareTestInstance" finished-at="2020-12-15T08:56:12 EET" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:add, post:findById]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{"email":"test@ykr.net","body":"TestBody","subj":"TestSubj","id":"11"}, FOUND]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:TestSubj;email:test@ykr.net;body:TestBody}, {subj:;email:;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[get:deleteAll, post:add, get:getAll]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[OK, {"email":"test@ykr.net","body":"TestBody","subj":"TestSubj","id":"11"}, [{"email":"test@ykr.net","body":"TestBody","subj":"TestSubj","id":"11"}]]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:Tema;email:tarik@ukr.net;body:aaaa}, {subj:TestSubj;email:test@ykr.net;body:TestBody}, {subj:Tema;email:tarik@ukr.net;body:aaaa}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:findByEmail]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[{"email":"email1@mail.com","body":"Sho ti","subj":"Hurma","id":"001"},{"email":"email1@mail.com","body":"I vprincipi nichoho","subj":"Zal","id":"002"}]]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:TestSubj;email:email1@mail.com;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:findByEmail]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[]]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:TestSubj;email:unexpected@mail.com;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:findBySubj]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[{"email":"email1@mail.com","body":"I vprincipi nichoho","subj":"Zal","id":"002"},{"email":"email3@mail.com","body":"Hello boys","subj":"Zal","id":"003"}]]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:Zal;email:;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:findBySubj]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[]]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:UnexpectedSubj;email:;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:deleteById, post:findById]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[DELETED, NOT FOUND]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:;email:;body:}, {subj:;email:;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[post:deleteById]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Email is not exist]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:;email:;body:}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[get:deleteAll, get:getAll]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[OK, []]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:Tema;email:tarik@ukr.net;body:aaaa}, {subj:Tema;email:tarik@ukr.net;body:aaaa}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextBeforeTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="doBeforeTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doBeforeTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method signature="testDataProvidedCopter(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="testDataProvidedCopter" data-provider="dataFor_testMailService" finished-at="2020-12-15T08:56:12 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[get:getAll]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[{"email":"email1@mail.com","body":"Sho ti","subj":"Hurma","id":"001"},{"email":"email1@mail.com","body":"I vprincipi nichoho","subj":"Zal","id":"002"},{"email":"email3@mail.com","body":"Hello boys","subj":"Zal","id":"003"}]]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{subj:Tema;email:tarik@ukr.net;body:aaaa}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvidedCopter -->
+        <test-method is-config="true" signature="doAfterTest()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="doAfterTest" finished-at="2020-12-15T08:56:12 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestMethod" finished-at="2020-12-15T08:56:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.restservice.CopterControllerTests.testDataProvidedCopter(java.util.ArrayList,java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.example.restservice.CopterControllerTests@3abada5a]" started-at="2020-12-15T08:56:12 EET" name="springTestContextAfterTestClass" finished-at="2020-12-15T08:56:12 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.example.restservice.CopterControllerTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

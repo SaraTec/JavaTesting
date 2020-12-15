@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.145" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-11-13T22:02:11" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="SOAP Testing" timestamp="2019-11-13T22:02:11" tests="8" file="/home/pushkar/soap_wrapper/test/index.test.js" failures="0" time="3.145">
+    <testcase name="SOAP Testing Task 1" time="0.716" classname="Task 1">
+    </testcase>
+    <testcase name="SOAP Testing Task 2" time="0.434" classname="Task 2">
+    </testcase>
+    <testcase name="SOAP Testing Task 3" time="0.326" classname="Task 3">
+    </testcase>
+    <testcase name="SOAP Testing Task 4" time="0.339" classname="Task 4">
+    </testcase>
+    <testcase name="SOAP Testing Task 5" time="0.327" classname="Task 5">
+    </testcase>
+    <testcase name="SOAP Testing Task 6" time="0.342" classname="Task 6">
+    </testcase>
+    <testcase name="SOAP Testing Task 7" time="0.33" classname="Task 7">
+    </testcase>
+    <testcase name="SOAP Testing Task 8" time="0.331" classname="Task 8">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<suite name="TestSuite" parallel="tests" thread-count="3">
+    <test name="AutoQA_Group1">
+        <classes>
+            <class name="com.qmetry.testng_demo.BitwiseCalculatorTest" />
+            <class name="com.qmetry.testng_demo.CombinatoryCalculatorTest" />
+            <class name="com.qmetry.testng_demo.ComplexCalculatorTest" />
+        </classes>
+    </test>
+    <test name="AutoQA_Group2">
+        <classes>
+            <class name="com.qmetry.testng_demo.NumberSystemsConverterTest" />
+            <class name="com.qmetry.testng_demo.RandomNumberGeneratorTest" />
+            <class name="com.qmetry.testng_demo.ScientificCalculatorTest" />
+        </classes>
+    </test>
+    <test name="AutoQA_Group3">
+        <classes>
+            <class name="com.qmetry.testng_demo.SimpleCalculatorTest" />
+            <class name="com.qmetry.testng_demo.TimeTest" />
+            <class name="com.qmetry.testng_demo.TimeCalculatorTest" />
+        </classes>
+    </test>
+</suite>

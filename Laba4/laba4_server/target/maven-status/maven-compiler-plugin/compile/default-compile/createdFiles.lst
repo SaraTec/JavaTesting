@@ -1,0 +1,4 @@
+com\example\restservice\RestServiceApplication.class
+com\example\restservice\MailService.class
+com\example\restservice\CopterController.class
+com\example\restservice\Email.class
